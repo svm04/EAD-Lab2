@@ -62,9 +62,9 @@ cp .env.example .env
 ```
 
 ```properties
-DB_URL=jdbc:mysql://localhost:3306/library_db
-DB_USERNAME=root
-DB_PASSWORD=your_root_password
+LIBRARY_DB_URL=jdbc:mysql://localhost:3306/library_db
+LIBRARY_DB_USERNAME=root
+LIBRARY_DB_PASSWORD=your_root_password
 ```
 
 `application.properties` loads `.env` automatically, and `.env` is listed in `.gitignore`.
